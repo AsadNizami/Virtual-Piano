@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+html {
+    background-color: darkgreen;
+}
+.white-keys {
+    width: max-content;
+    margin: 15% auto;
+    font-family: 'Lobster', cursive;
+}
+.black-keys{
+    width: max-content;
+    margin: 5% auto;
+}
+.black-keys kbd{
+    background-color: black;
+    color: white;
+    display: inline-block;
+    border: 2px solid black;
+    position: relative;
+    height: 70px;
+    line-height: 65px;
+    width: 20px;
+    text-align:center;
+    top:-385px;
+    padding: 10px;
+    margin: 10px;
+    left: -35px;
+
+}
+.white-keys kbd {
+    background-color: #ffffff;
+    border: 2px solid #000000;
+    display: inline-block;
+    height: 150px;
+    line-height: 250px;
+    margin: -4px;
+    text-align: center;
+    width: 70px;
+    font-size: 40px;
+    font-weigth: 700;
+
+}
